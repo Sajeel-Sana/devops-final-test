@@ -1,0 +1,8 @@
+services:
+  final-app:
+    build: .
+    image: ${DOCKER_HUB_USER}/final-test-app:latest
+    ports:
+      - "8081:80"
+    restart: always
+    env_file: .env
