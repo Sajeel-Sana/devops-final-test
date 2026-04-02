@@ -1,4 +1,4 @@
-# Stage 1: Build Stage
+# Stage      1: Build Stage
 FROM nginx:alpine AS builder
 COPY ./app /usr/share/nginx/html
 
